@@ -93,15 +93,15 @@ body {
 
 .container {
   border: 2px solid white;
-  margin: 91px 920px;
+  margin: 150px 820px; /* Adjusted margin to move to the left */
   padding: 21px 113px 25px 100px;
-  width: 367px;
+  width: 300px; /* Adjusted width for smaller size */
   border-radius: 77px;
 }
 
 .form-group input {
   text-align: center;
-  width: 350px;
+  width: 250px; /* Adjusted width to fit smaller container */
   display: block;
   border: 2px solid black;
   margin: 8px auto;
@@ -112,7 +112,7 @@ body {
 }
 .container button {
   display: block;
-  width: 359px;
+  width: 259px; /* Adjusted width to fit smaller container */
   margin: 36px auto;
 }
 
@@ -133,4 +133,20 @@ body {
   text-align: left;
   position: absolute;
   top: 19%;
+}
+
+/* Footer styles */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  margin: 0;
 }
