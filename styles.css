@@ -93,7 +93,7 @@ body {
 
 .container {
   border: 2px solid white;
-  margin: 150px 1300px; /* Adjusted margin to move to the left */
+  margin: 120px 1050px; /* Adjusted margin to move to the right */
   padding: 21px 113px 25px 100px;
   width: 300px; /* Adjusted width for smaller size */
   border-radius: 77px;
@@ -149,6 +149,11 @@ body {
 .footer p {
   color: white;
   margin: 0;
+}
+
+#socialLinks,
+#emailLink {
+  display: none;
 }
 
 #socialLinks a,
