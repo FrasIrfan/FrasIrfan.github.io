@@ -104,6 +104,8 @@ body {
   font-size: 19px;
   border-radius: 10px;
   font-family: "Baloo Bhai 2", cursive;
+  color: white; /* Set text color to white */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent light gray background */
 }
 
 .container button {
@@ -249,3 +251,96 @@ body {
 #emailLink a:hover {
   color: lightcoral;
 }
+
+/* Contact Us Page Styles */
+.contact-container {
+    border: 2px solid white;
+    margin: 100px auto;
+    padding: 40px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    overflow-y: auto;
+  }
+
+  .contact-container h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container form input,
+  .contact-container form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white; 
+  }
+
+  .contact-container form button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+
+  .contact-container form button:hover {
+    background-color: #444;
+  }
+
+  .intro-text {
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+  }
+
+  .intro-text h1 {
+    font-size: 36px;
+  }
+
+  .intro-text p {
+    font-size: 20px;
+  }
+
+  .additional-info {
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+  }
+
+  .additional-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .additional-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 15px;
+    margin: 20px 0;
+  }
