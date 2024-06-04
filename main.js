@@ -27,6 +27,7 @@ function SubmitData() {
     localStorage.setItem("Gender", gender);
 
     var email = document.getElementById("Email").value;
+
     localStorage.setItem("Email", email);
 
     alert("Form submitted successfully!");
